@@ -20,7 +20,9 @@ Its really simple, everytime a user logins to your application, if the username 
                 password.Text = credentials.Password;
             }
           ```
+          
             5. Define the credentials class 
+            
             ```csharp
                     public class Credentials
         {
