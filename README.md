@@ -9,7 +9,7 @@ Its really simple, everytime a user logins to your application, if the username 
 2. In the console type ```Install-Package Newtonsoft.Json``` , press enter and wait for the package to be installed.
 3. In the top of your project include Newtonsoft.Json (if its not automatically included) with ```using Newtonsoft.Json;```.
 4. On the end of the Login_Load void add the following code
-```csharp
+
  string configpath = "Config.json";
             if (File.Exists(configpath))
             {
@@ -19,19 +19,19 @@ Its really simple, everytime a user logins to your application, if the username 
                 username.Text = credentials.Username;
                 password.Text = credentials.Password;
             }
-          ```
+
           
             5. Define the credentials class 
             
-            ```csharp
+
                     public class Credentials
         {
             public string Username { get; set; }
             public string Password { get; set; }
         }
-        ```
+
         6. On the Login Button Click change the code to the following
-        ```csharp
+
           KeyAuthApp.login(username.Text,password.Text);
             if (KeyAuthApp.response.success)
             {
@@ -49,7 +49,7 @@ Its really simple, everytime a user logins to your application, if the username 
             }
             else
                 status.Text = "Status: " + KeyAuthApp.response.message;
-                ```
+ 
                 7. Build the application and you are ready!
                 
                 ⚠️ I also added a modified version of Login.cs that contains it so you can simply change the whole form to that for faster installation.
