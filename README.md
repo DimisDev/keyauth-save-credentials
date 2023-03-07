@@ -1,5 +1,6 @@
 # Keyauth Save Credentials (Username & Password)
-Simple C# Code to save user credentials after login and remember them using Json
+C# Code to save user credentials after login and remember them using Json.
+Its VERY simple, I just saw a bunch of people asking how to do it so I decided to release it.
 
 # How it works
 Its really simple, everytime a user logins to your application, if the username & password is correct according to the keyauth api response, the credentials are saved in a json file (named Config.json). Then every time the login form is loaded if the json config exists, the username and password are automatically loaded into the text boxes. The serialization process happens with NewtonsoftJson.
