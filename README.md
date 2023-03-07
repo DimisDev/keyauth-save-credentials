@@ -1,4 +1,4 @@
-# Keyauth Save Credentials (Username & Password)
+# Keyauth Save Credentials (Username & Password) for C#
 C# Code to save user credentials after login and remember them using Json.
 Its VERY simple, I just saw a bunch of people asking how to do it so I decided to release it.
 
