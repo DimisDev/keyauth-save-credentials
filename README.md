@@ -16,6 +16,6 @@ Its really simple, everytime a user logins to your application, if the username 
          
 
    ## Credits
-- [@DimisSSH](https://github.com/DimisSSH) (Credentials Saver)
+- [@DimisDev](https://github.com/DimisDev) (Credentials Saver)
 - [@KeyAuth](https://keyauth.cc) (Original Example)
 
